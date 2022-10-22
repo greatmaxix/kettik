@@ -3,32 +3,42 @@
     line-height: inherit;
 }
 
+.wantDiv {
+    width: 100%;
+}
+
 .wantDiv-1 {
-    height: 20%;
+    /* height: 21%; */
     background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
 }
 
 .wantDiv-2 {
-    height: 20%;
+    /* height: 21%; */
     background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
 }
 
 .wantDiv-3 {
-    height: 20%;
+    /* height: 21%; */
     background: linear-gradient(135deg, #5ee7df 0%, #b490ca 100%);
 }
 
 .wantDiv-4 {
-    height: 20%;
+    /* height: 21%; */
     background: linear-gradient(135deg, #c3cfe2 0%, #c3cfe2 100%);
+}
+
+.introBg-1 {
+    background-image: url('../../assets/johnny_automatic_cricket_game.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .introBg {
     background-image: url('../../assets/friends1.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-    
+    /* background-attachment: fixed; */
 }
 
 .whoWeAreBg {

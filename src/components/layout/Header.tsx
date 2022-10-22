@@ -7,7 +7,7 @@ export default function Header() {
     }) 
 
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg fixed-top bg-light">
           <animated.div
             style={{
                 ...springs
@@ -18,7 +18,7 @@ export default function Header() {
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+              <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li className="nav-item">
                   <a className="nav-link" aria-current="page" href="#intro">Интро</a>
                 </li>
@@ -26,7 +26,7 @@ export default function Header() {
                   <a className="nav-link" href="#whoAreWe">Кто мы?</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Обратная связь</a>
+                  <a className="nav-link" href="#contactUs">Обратная связь</a>
                 </li>
               </ul>
             </div>
